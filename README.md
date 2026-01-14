@@ -20,50 +20,7 @@ A powerful, personalized workout tracking application that adapts to your fitnes
 - 📱 **PWA Ready**: Install as a mobile app
 - 💾 **LocalStorage**: All data saved locally in browser
 
-## 🚀 Quick Start
 
-### Option 1: Deploy to Vercel (Recommended)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/workoutfrenzy)
-
-1. Click the button above
-2. Sign in to Vercel with GitHub
-3. Create a new repository (or select existing)
-4. Click "Deploy"
-5. Done! Your app is live! 🎉
-
-### Option 2: GitHub Pages
-
-1. Fork this repository
-2. Go to Settings → Pages
-3. Source: Deploy from main branch
-4. Your site will be live at `https://yourusername.github.io/workoutfrenzy`
-
-### Option 3: Local Development
-
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/workoutfrenzy.git
-
-# Navigate to directory
-cd workoutfrenzy
-
-# Open in browser (no build needed!)
-open index.html
-# Or use a simple HTTP server:
-python -m http.server 8000
-```
-
-## 📂 Project Structure
-
-```
-workoutfrenzy/
-├── index.html          # Main application (single file app!)
-├── manifest.json       # PWA manifest
-├── robots.txt          # SEO configuration
-├── vercel.json         # Vercel deployment config
-└── README.md           # This file
-```
 
 ## 🎯 How It Works
 
@@ -131,17 +88,7 @@ First-time users go through a quick setup:
 3. Select "Add to Home screen"
 4. Launch from home screen!
 
-## 🎨 Customization
 
-### Changing Colors
-Edit CSS variables in `index.html`:
-```css
-:root {
-  --accent-primary: #a855f7;    /* Purple */
-  --accent-secondary: #ec4899;   /* Pink */
-  --success: #10b981;            /* Green */
-}
-```
 
 ### Adding Workout Plans
 Edit the `WORKOUT_PLANS` object in `index.html` to add more workout templates.
@@ -157,20 +104,6 @@ Edit `EQUIPMENT_EXERCISES` object to add more home/gym equipment options.
 - ✅ **Complete privacy** - your data never leaves your device
 - ⚠️ **Important**: Clear browser data = lose your history
 
-## 🔧 Development
-
-No build process required! Just edit `index.html` and refresh.
-
-```bash
-# Run local server (optional)
-python -m http.server 8000
-
-# Or use Node.js
-npx serve .
-
-# Or use PHP
-php -S localhost:8000
-```
 
 ## 📝 Version History
 
@@ -192,7 +125,7 @@ All rights reserved. This code is provided for personal use only.
 
 ## 👨‍💻 Author
 
-**Bright**
+**Bright Emmanuel**
 
 ---
 
