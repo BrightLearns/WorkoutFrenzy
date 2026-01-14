@@ -1,0 +1,27 @@
+{
+  "name": "workoutfrenzy",
+  "version": "1.0.0",
+  "description": "Personal workout tracker with customized plans and progress tracking",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "start": "python -m http.server 8000"
+  },
+  "keywords": [
+    "workout",
+    "fitness",
+    "tracker",
+    "gym",
+    "exercise",
+    "health",
+    "training"
+  ],
+  "author": "Bright",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/workoutfrenzy.git"
+  },
+  "homepage": "https://workoutfrenzy.vercel.app"
+}
